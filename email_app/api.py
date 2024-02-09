@@ -12,6 +12,6 @@ class EmailMessengerAPI(GenericAPIView) :
         serializer.save()
 
         return Response({
-            "message":"email has been sent successfully",
+            "message":"email sent successfully",
             "success":True
         })
